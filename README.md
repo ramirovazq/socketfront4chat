@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# socketfront4chat
 
-## Available Scripts
+Cliente frontend en React que se conecta a servicio de socket 0.0.0.0:8080
 
-In the project directory, you can run:
+### Prerequisitos
 
-### `npm start`
+Es necesario tener:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+node
+npm
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Instalación
 
-### `npm test`
+Descarga el proyecto e instala las dependencias
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+usuario@tu-maquina:~/misarchivos$ git clone https://github.com/ramirovazq/socketfront4
+usuario@tu-maquina:~/misarchivos$ cd socketfront4chat/
+usuario@tu-maquina:~/misarchivos$ npm install
+```
 
-### `npm run build`
+Corre el proyecto en pruebas
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+usuario@tu-maquina:~/misarchivos$ npm start
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+You can now view simple-chat in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.1.69:3000/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Al correr, debe verse corriendo en localhost:3000 y se conecta por default al servidor de socket http://0.0.0.0:8080
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
